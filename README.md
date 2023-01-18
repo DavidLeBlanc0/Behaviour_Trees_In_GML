@@ -2,7 +2,7 @@
  This project includes a collection of scripts that allow the creation and use of behaviour trees in GML for GameMaker. It also includes a sample script and object that demonstrate how they may be used. The sample object may be controlled with the WASD keys when running the project. Below the code for the sample script and the initialisation for the sample object are given.
 
 # Behaviour Tree Sample Initialisation (Create Event)
-```
+```gml
 
 bt = new BtParallel(
 	new BtSimpleMovement()
@@ -13,7 +13,7 @@ bt = new BtParallel(
 ```
 
 # Sample Script
-```
+```gml
 function BtSimpleMovement() : BtLeaf() constructor
 {
 	// Node-local variables may be declared outside a tick_func
